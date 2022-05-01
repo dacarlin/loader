@@ -1,0 +1,17 @@
+A music loader for the MP3 player 
+
+Main thing is to load albums on to the player so that they play
+in order. As far as I know, that will have to be done with the 
+file names. So the back end is 
+
+- given a list of folders with numbered files in them 
+- write all the names as a flat list preserving order
+- but who cares what order the albums are in 
+
+This enables me to skip through albums on the player. Set a limit 
+of 10 albums, or maybe 8 albums. 
+
+The front end is you have to nominate a number of albums, which 
+means some selector interface. I wonder if a Python TUI is too 
+slow for this 
+
